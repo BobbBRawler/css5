@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Images</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            text-align: center;
+            justify-content: space-around;
+        }
+        .navbar h1{
+            margin-top: 20px;
+        }
+        #icon{
+            height: 50px;
+            width: 50px;
+            
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: auto auto;
+            gap: 30px 7px;
+            margin: 60px;
+        }
+        img{
+            width: 270px;
+            height: 60vh;
+        }
+        .content1,.content2,.content3,.content4,.content5,.content6,.content7,.content8{
+            text-align: center;
+        }
+        .pages{
+            justify-content: center;
+            display: grid;
+            column-gap: 20px;
+            grid-template-columns: auto auto auto auto auto auto auto;
+            font-size: 20px;
+        }
+
+        .page{
+            display: block;
+        }
+
+        .page:hover{
+            justify-content: center;
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            padding-left: 2px;
+            padding-right: 2px;
+        }
+        .about{
+            text-align: center;
+            margin: 60px;
+        }
+
+        .Image1{
+            justify-content: center;
+            width: 50%;
+            height: 50vh;
+        }
+
+
+        .p3{
+            height: 50px;
+            width: 50px;
+        }
+
+        .p3 span{
+            align-content: center;
+        }
+
+        .footer{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            column-gap: 10px;
+            align-content: center ;
+            margin: 60px;
+        }
+        .Tags{
+            padding: 10px;
+            align-content: center;
+        }
+
+        .Tags span{
+            padding: 5px;
+            background-color: black;
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div>
+            <img src="iconmonstr-menu-square-lined-240.png" alt="menu" id="icon">
+        </div>
+        <div>
+            <h1>MY Food</h1>
+        </div>
+        <div>
+            <h1>Mail</h1>
+        </div>
+        
+    </nav>
+     <br>
+      <br>
+       <br>
+
+    <div class="grid">
+        <div class="content1">
+            <img src="sandwich (1).jpg" alt="sandwich">
+
+            <h2>The Perfect Sandwich, A Real NYC Classic</h2> <br>
+            <p>The Perfect Sandwich, A Real NYC Classic
+                Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="content2">
+            <img src="steak.jpg" alt="steak">
+            <h2>Let Me Tell You About This Steak</h2> <br>
+            <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="content3">
+            <img src="cherries.jpg" alt="cherries">
+            <h2>Cherries, interrupted</h2> <br>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum. <br>
+               <br>  What else?</p>
+        </div>
+        <div class="content4">
+            <img src="wine.jpg" alt="wine">
+            <h2>Once Again, Robust Wine and Vegetable Pasta</h2> <br>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="content5">
+            <img src="popsicle.jpg" alt="">
+            <h2>All I Need Is a Popsicle</h2> <br>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="content6">
+            <img src="salmon.jpg" alt="">
+            <h2>Salmon For Your Skin</h2> <br>
+            <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="content7">
+            <img src="sandwich (1).jpg" alt="">
+            <h2>The Perfect Sandwich, A Real Classic</h2> <br>
+            <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+        <div class="content8">
+            <img src="croissant.jpg" alt="">
+            <h2>Le French</h2> <br>
+            <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+    </div>
+
+    <div class="pages">
+        <div class="page"> << </div>
+        <div class="page">1</div>
+        <div class="page">2</div>
+        <div class="page">3</div>
+        <div class="page">4</div>
+        <div class="page">5</div>
+        <div class="page"> >> </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <hr> <br> <br>
+
+    <div class="about">
+        <h1> About me , The Food Man </h1> <br> <br>
+        <img src="chef.jpg" alt="chef" class="Image1"> <br>
+        <strong><h3>I am Who I Am! </h3></strong> <br>
+            <h4>With Passion For Real, Good Food</h4>
+            <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </div> <br> <br> <hr> <br>
+
+    <div class="footer">
+
+
+        <div class="p1">
+           <h1> FOOTER</h1> <br> <br>
+           <p>Praesent tincidunt sed tellus ut rutrum. <br> Sed vitae justo  condimentum, porta lectus vitae,<br> ultricies congue gravida diam non fringilla. <br> <br>  Powered by <a href="#">w3.cs</a>s</p>
+        </div>
+
+        <div class="p2">
+
+            <h1>Blog Posts</h1> <br> <br>
+            
+            <img src="workshop.jpg" alt="" class="p3">
+            <span>Lorem 
+                Sed mattis nunc</span>
+
+             <br>
+             <hr>
+             <br>
+
+            <img src="gondol.jpg" alt="" class="p3">
+            <span>
+                Ipsum 
+                Praes tinci sed</span>
+        </div>
+
+        <div class="p4">
+
+            <h1>Popular Tags</h1> <br>
+            <br>
+            <div class="Tags">
+                <span>Travel</span>
+                <span>New York</span>
+                <span>Dinner</span>
+                <span>fish</span>
+                <span>Salmon</span>
+            </div>
+            <br>
+            <div class="Tags">
+                <span>France</span>
+                <span>Drinks</span>
+                <span>Cuisine</span>
+                <span>Chicken</span>
+                <span>Flavours</span>
+                <span>Duck</span>
+            </div>
+
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
